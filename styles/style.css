@@ -9,7 +9,6 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 90px;
-
     padding: 50px 220px 0px 220px;
 }
 
@@ -35,7 +34,6 @@ body {
     border-style: none;
 }
 
-.banner-profil {}
 
 .banner-description {
     font-size: 18px;
@@ -49,27 +47,110 @@ body {
 
 /* main part styles */
 
-section{
+/* feature intro*/
+
+section {
     margin-top: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
-   
-    
+
+
 }
 
-.feature{
+.feature {
     text-align: center;
     color: #272727;
     font-size: 40px;
-    font-weight: 800px;
+    font-weight: 800;
     width: 600px;
     height: 60px;
 }
-.feature-description{
+
+.feature-description {
     font-size: 18px;
     color: rgb(49, 47, 47);
     margin-top: 24px;
-    font-weight: 400px;
+    font-weight: 400;
+}
 
+/* feature cards */
+
+.feature-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.feature-card p {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration: none;
+    margin-top: 48px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 100px 75px 0px 75px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 110px 50px 50px 50px;
+}
+
+.card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 65px 75px 0px 75px;
+}
+
+.services-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    gap: 100px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
 }
